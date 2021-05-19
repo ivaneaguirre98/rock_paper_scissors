@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h1>Rock, Paper, Scissors</h1>
+            <h2>Can you beat the computer?</h2>
+        </div>
+
+        <div class="scoreBoard">
+            <div id="playerOne">You</div>
+            <div id="actualScore">
+                <div id="userScore">0</div>
+                <div>:</div>
+                <div id="cpuScore">0</div>
+            </div>
+            
+            <div id="cpuPlayerName">CPU</div>
+            
+        </div>
+
+        <div class="gameButtSection">
+            <div class="gameButtons" id="rockChoice">
+                <i class="ph-hand-fist" style="font-size: 100px;"></i>
+            </div>
+            <div class="gameButtons" id="paperChoice">
+                <i class="ph-hand-palm" style="font-size: 100px;"></i>
+            </div>
+            <div class="gameButtons" id="scissorsChoice">
+                <i class="ph-scissors" style="font-size: 100px;"></i>
+            </div>
+        </div>
+
+        <div id="gameMessage">First to 5 wins the game</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

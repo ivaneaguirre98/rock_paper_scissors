@@ -1,0 +1,44 @@
+body{
+    background-color: #254441;
+}
+
+.container{
+    text-align: center;
+    color: white;
+}
+
+.gameButtSection{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0 0 2% 0;
+}
+
+.gameButtons{
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    padding: 10%;
+    margin: 5%;
+}
+
+.gameButtons:hover{
+    background-color: #ff6f59;
+}
+
+.gameButtonsWin{
+    background-color:green;
+}
+
+.gameButtonsLose{
+    background-color: red;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#actualScore{
+    display: flex;
+    padding: 0 4% 0 4%;
+}
